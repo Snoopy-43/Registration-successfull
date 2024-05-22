@@ -1,0 +1,47 @@
+ 
+body{
+  background: linear-gradient(#07A3B2 ,#D9ECC7);
+  font-size: 12px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+.container {
+    padding: 20px;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+.success-icon{
+    font-size: 48px;
+    padding: 30px;
+    color: green;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+p{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    background: rgb(13, 13, 51);
+    color: #fff;
+    border:none;
+    width: 100px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgba(0,0,0,0.4);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
